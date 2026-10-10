@@ -1,0 +1,14 @@
+{
+  "envId": "triangle-agency-dice-d5a49141400",
+  "framework": {
+    "name": "triangle-agency-dice-room",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "outputPath": "./dist"
+        }
+      }
+    }
+  }
+}

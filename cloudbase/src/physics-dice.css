@@ -1,0 +1,8 @@
+.physics-dice-wrap { position:relative; width:100%; }
+.physics-dice-scene { width:100%; height:340px; overflow:hidden; }
+.physics-dice-scene canvas { display:block; max-width:100%; }
+.physics-dice-loading { position:absolute; top:45%; left:0; right:0; text-align:center; color:#b9c9bd; font-size:12px; pointer-events:none; }
+.physics-dice-values { display:flex; justify-content:center; gap:12px; padding-top:8px; }
+.physics-dice-values span { width:29px; height:29px; display:grid; place-items:center; border:1px solid #90aa9a66; color:#f2ead9; font:700 16px ui-monospace,monospace; background:#18372e66; }
+.physics-dice-values .red-three { color:#ff8176; border-color:#e5766766; }
+@media(max-width:760px) { .physics-dice-scene { height:290px; } }
